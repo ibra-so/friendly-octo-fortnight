@@ -1,0 +1,42 @@
+[debug] [2024-12-23T20:23:15.150Z] ----------------------------------------------------------------------
+[debug] [2024-12-23T20:23:15.151Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\METRA\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2024-12-23T20:23:15.151Z] CLI Version:   13.29.1
+[debug] [2024-12-23T20:23:15.152Z] Platform:      win32
+[debug] [2024-12-23T20:23:15.152Z] Node Version:  v18.16.1
+[debug] [2024-12-23T20:23:15.152Z] Time:          Mon Dec 23 2024 22:23:15 GMT+0200 (توقيت شرق أوروبا الرسمي)
+[debug] [2024-12-23T20:23:15.153Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-23T20:23:15.210Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-23T20:23:15.211Z] > authorizing via signed-in user (salamaebrahim762@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Cyber Security\collage\build\web
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-12-23T20:23:25.702Z] Checked if tokens are valid: true, expires at: 1734986459584
+[debug] [2024-12-23T20:23:25.702Z] Checked if tokens are valid: true, expires at: 1734986459584
+[debug] [2024-12-23T20:23:25.704Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-12-23T20:23:46.844Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects?pageSize=100, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100 failed, reason: connect ETIMEDOUT 172.217.19.138:443
+[debug] [2024-12-23T20:23:46.845Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2024-12-23T20:23:47.159Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at RetryOperation._fn (C:\Users\METRA\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:261:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
